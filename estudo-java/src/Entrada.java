@@ -7,9 +7,10 @@ public class Entrada {
     Scanner sc = new Scanner(System.in);
     
     String nome;
-    System.out.println(“Entre com o nome do aluno:”);
+    System.out.print("Entre com o nome do aluno: ");
     nome = sc.nextLine();
+    System.out.print("NOME = " + nome);
 
+    sc.close();
     }
-
 }
