@@ -4,13 +4,13 @@ public class Curso {
     private int duracao; //em anos
     private String area;
 
-    //construtor da classe
+    //construtor = método com o mesmo nome da classe
     public Curso(String nome, String turno, int duracao, String area) {
         this.nome = nome;
         this.turno = turno;
         this.duracao = duracao;
         this.area = area;
-    }
+    } 
 
     //acessar os atributos
     public String getNome() {
